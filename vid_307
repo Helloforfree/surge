@@ -5,8 +5,5 @@
 
 ^https://*.* https://www.video.hxcsxs.app/vod/20220526-3/hls/index.m3u8 307
 
-[Script]
-http-response https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Tiktok.js, requires-body=true, timeout=10, tag=TK去水印
-
 [MITM]
 hostname = %APPEND% *.*
